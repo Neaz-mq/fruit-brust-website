@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust Website</title>
+
+    <!-- Tailwind and Daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lato google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+
 </head>
 <body>
+
+    <header>
+
+        <nav class="flex md:bg-[#F85559] space-x-7 rounded-full m-12  ">
+            <div class="navbar ">
+                <div class="navbar-start">
+                    <ul class="hidden md:flex gap-4 text-white pl-11">
+                      <li><a>Home</a></li>
+                      <li><a>About Us </a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="navbar-center">
+                    <div class="flex justify-center items-center gap-2 mt-2 mr-40 -ml-12">
+                        
+                    <img class="w-9 mr-1" src="./images/logo.png" alt="">
+                
+                    <div class="m-auto md:text-white text-2xl mr-6">
+                    <h2>Fruit Burst</h2>
+                </div>
+                </div>
+                
+                <div class="text-end -mt-6 md:hidden">
+                  <i class="fa-solid fa-bars"></i>
+                </div>  
+                </div>
+                <div class="hidden md:flex relative ">
+                    <input type="text" placeholder="Search" class="bg-white input input-bordered  w-22 mt-2 -mr-3 ml-6  " />
+                </div>   
+
+                <div class="hidden md:flex justify-center items-center">
+                    <div class="-ml-12 mr-12 z-10">
+                    <i class="fa-solid fa-magnifying-glass"></i>  
+                </div> 
+                </div>
+
+                <!-- <div class="ml-40 -mr-5 -mt-9">
+                    <i class="fa-solid fa-magnifying-glass "></i>   
+                </div> -->
+
+               
+                    
+                  </div> 
+                  
+                </div>
+              </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
     
 </body>
 </html>
