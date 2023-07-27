@@ -34,8 +34,8 @@
 
     <!-- Navbar Section -->
 
-    <nav class="md:flex md:bg-[#F85559] space-x-7 rounded-full m-12">
-      <div class="navbar ">
+    <nav class="md:flex md:bg-[#F85559] space-x-7 rounded-full m-12  font-lato">
+      <div class="navbar font-lato">
         <div class="navbar-start">
           <ul class="hidden md:flex gap-4 text-white pl-11">
             <li><a>Home</a></li>
@@ -48,10 +48,10 @@
       <div class="navbar-center">
         <div class="flex justify-center items-center gap-2 mt-2 mr-40 -ml-12">
 
-          <img class="w-9 mr-1" src="./images/logo.png" alt="">
+          <img class="w-9 mr-1 " src="./images/logo.png" alt="">
 
-          <div class="m-auto md:text-white text-2xl mr-6">
-            <h2>Fruit Burst</h2>
+          <div class="m-auto md:text-white text-2xl">
+            <h2 class="md:mr-12 md:-ml-1">Fruit Burst</h2>
           </div>
         </div>
 
@@ -60,7 +60,8 @@
         </div>
       </div>
       <div class="hidden md:flex relative ">
-        <input type="text" placeholder="Search" class="bg-white input input-bordered  w-22 mt-2 -mr-3 ml-6  " />
+        <input type="text" placeholder="Search"
+          class="bg-white input input-bordered  w-22 mt-2 -mr-3 ml-6 px-4 lg1:py-1  " />
       </div>
 
       <div class="hidden md:flex justify-center items-center">
@@ -72,17 +73,17 @@
 
     <!-- Banner Section -->
 
-    <section class="flex justify-around z-10">
+    <section class="flex justify-around z-10 font-lato">
 
       <div class="carousel  w-9/12 z-[10] ">
 
         <div id="slide1" class="carousel-item relative z-10 w-full">
           <div class="relative">
-            <img src="/images//banner1.png" class="w-full  -pt-5" />
+            <img src="/images/banner1.png" class="w-full  -pt-5" />
             <div class="flex justify-center items-center ">
               <h1 class=" md:text-4xl text-center absolute top-2 font-bold text-white pt-2 pb-5 leading-2">Exotic tastes
                 at your <br> doorstep </h1>
-              <p class=" text-xs md: text-white top-16 absolute pt-8 text-sm pb-8 leading-1">We supply highly quality
+              <p class="  md: text-white top-16 absolute pt-9 text-xs pb-9 leading-1 mb-4">We supply highly quality
                 organic products</p>
               <button
                 class="  md:btn bg-[#F85559] text-white md:top-14 md:absolute md:px-5 md:py-3 md:text-sm border-none md:mt-16 ">Shop
@@ -99,7 +100,7 @@
         </div>
         <div id="slide2" class="carousel-item relative w-full">
 
-          <img src="/images//banner2.png" class="w-full" />
+          <img src="/images/banner2.png" class="w-full" />
 
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle">❮</a>
@@ -107,27 +108,26 @@
           </div>
 
           <div id="slide3" class="carousel-item relative w-full">
-            <img src="/images//banner3.png" class="w-full" />
+            <img src="/images/banner3.png" class="w-full" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" class="btn btn-circle">❮</a>
               <a href="#slide4" class="btn btn-circle">❯</a>
             </div>
           </div>
           <div id="slide4" class="carousel-item relative w-full">
-            <img src="/images//banner4.png" class="w-full" />
+            <img src="/images/banner4.png" class="w-full" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" class="btn btn-circle">❮</a>
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
         </div>
-
     </section>
 
-    <section>
-      <div class=" md:flex-container px-60 py-7 -mt-7 ">
+    <section class="font-lato">
+      <div class=" md:flex-container px-60 py-10  -mt-7 ">
         <div
-          class="hidden md:flex justify-center items-center gap-7 items-center absolute -mt-10  border-2 bg-white  shadow-xl z-20 px-6">
+          class="hidden md:flex justify-center items-center gap-7  absolute -mt-14  border-2 bg-white  shadow-xl z-20 px-5 py-6">
           <div>
             <img src="./images/fruit1.png" alt="">
             <p>&nbsp; &nbsp; &nbsp;Strawberry</p>
@@ -153,41 +153,40 @@
       </div>
     </section>
 
-
-
-
   </header>
+
 
   <main>
 
     <!-- Deal of the day Section -->
-    <section class="mt-24">
+    <section class="mt-24 font-lato">
       <div class="deal-container">
         <div class="deal-contents   md:mt-40 md:ml-14 md:pl-13 md:flex md:justify-evenly md:items-center ">
-          <div class="deal-description mt-10   mb-10">
-            <h1 class=" text-3xl  font-bold mb-2">Deal of the day</h1>
-            <p class="text-sm">Contrary to popular belief, is not simply random text. It has roots in a piece of
+          <div class="deal-description md:mt-10   mb-10">
+            <h1 class=" text-3xl  font-bold mb-2  md:-ml-12">Deal of the day</h1>
+            <p class="text-sm  md:-ml-12">Contrary to popular belief, is not simply random text. It has roots in a piece
+              of
               classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
 
-          <div class="md:flex justify-end items-center md:pl-8 md:ml-2">
-            <div class="md:flex-container-date flex justify-evenly items-center gap-2">
-              <h1 class="text-2xl  font-bold mb-2">29 |</h1><br>
+          <div class="md:flex md:justify-end md:items-center md:pl-8 md:ml-2">
+            <div class="md:flex-container-date flex justify-evenly items-center md:gap-2">
+              <h1 class="text-2xl  font-bold mb-2 ">29 |</h1>
               <p class="mt-14 md:mr-4 -ml-14 text-sm">Days</p>
-              <h1 class="text-2xl  font-bold mb-2">15 |</h1><br>
+              <h1 class="text-2xl  font-bold mb-2">15 |</h1>
               <p class="mt-14 mr-4 -ml-14 text-sm">Hours</p>
-              <h1 class="text-2xl  font-bold mb-2">25 |</h1><br>
+              <h1 class="text-2xl  font-bold mb-2">25 |</h1>
               <p class="mt-14 md:mr-6 -ml-14 text-sm">Minutes</p>
-              <h1 class="text-2xl  font-bold mb-2 -ml-4">08 |</h1><br>
-              <p class="mt-14 mr-5 -ml-14 text-sm">Seconds</p>
+              <h1 class="text-2xl  font-bold mb-2 md:-ml-2"> 08 </h1>
+              <p class="mt-14 mr-5 -ml-14 text-sm"> &nbsp;Seconds</p>
             </div>
           </div>
         </div>
 
         <!-- Card Section -->
 
-        <div class="card-flex-container mx-14 px-14 grid md:grid-cols-4 gap-3 ">
-          <div class="card-container my-6">
+        <div class="card-flex-container mx-14 px-14 grid md:grid-cols-4 gap-3 font-lato">
+          <div class="card-container my-6 ">
             <div class="flex justify-evenly items-center">
               <div class="card bg-base-100 shadow-sm border px-11">
                 <figure class="px-10 pt-4">
@@ -349,11 +348,8 @@
                   <div class="card-actions">
                     <button class="text-red-400">Details</button>
                   </div>
-
-
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -364,7 +360,7 @@
 
     <!-- Meet the team section -->
 
-    <section class="md:px-20 md:mx-8 pb-11">
+    <section class="md:px-20 md:mx-8 md:pb-11 font-lato">
 
       <div class="hero md:min-h-screen" style="background-image: url(./images/team.png);">
         <div class="hero-overlay bg-opacity-60"></div>
@@ -432,233 +428,206 @@
                   </div>
                 </div>
               </div>
-
-
-
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
     <!-- Why Choose Us -->
 
-    <section class="my-20 mx-10">
-      
+    <section class="my-20 mx-10 font-lato">
+
       <div class="text-center">
 
-           <h1 class="text-3xl font-bold">Why Choose Us</h1><br>
-           <p class="text-sm font-normal">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        <h1 class="text-3xl font-bold">Why Choose Us</h1><br>
+        <p class="text-sm font-normal">Contrary to popular belief, is not simply random text. It has roots in a piece of
+          classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
 
-      <div class="flex items-center lg:gap-15">
+      <div class="md:hidden flex justify-center items-center mt-6">
+        <img src="./images/whychoose1.png" alt="">
+      </div>
+
+      <div class="flex  items-center lg:gap-15">
         <div class="flex-col lg:pl-9 lg:ml-7">
-      <div class="contents lg:pl-6 lg:-mr-8">
-        <div class="flex justify-normal items-center lg:gap-3">
-        <div class="mt-10">
+          <div class="contents lg:pl-6 lg:-mr-8">
+            <div class="flex justify-normal items-center lg:gap-3">
+              <div class="mt-10">
+                <i class="fa-solid fa-users"></i>
+              </div>
 
-          <i class="fa-solid fa-users"></i>
-        </div>
+              <div class="mt-14">
+                <h2 class="mt-2 mb-2v text-xl font-bold mb-2">Dedicated Team</h2>
+                <hr class="w-20 decoration-8 mb-2">
+                <p class="text-xs font-normal">Professional employees are there for you to pick the <br> most amazing
+                  and fresh fruits.</p>
+              </div>
 
-        <div class="mt-14">
-          <h2 class="mt-2 mb-2v text-xl font-bold mb-2">Dedicated Team</h2>
-          <hr class="w-20 decoration-8 mb-2">
-          <p class="text-xs font-normal">Professional employees are there for you to pick the <br> most amazing and fresh fruits.</p>
-        </div>
-
-      </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-      </div>
-
-      <div class="contents">
-        <div class="flex justify-normal items-center gap-3">
-        <div class="mt-10">
-
-          <i class="fa-regular fa-heart"></i>
-        </div>
-
-        <div class="mt-14">
-          <h2 class="mt-2 mb-2v text-xl font-bold mb-2">Fresh is Best</h2>
-          <hr class="w-20 decoration-8 mb-2">
-          <p class="text-xs font-normal">Professional employees are there for you to pick the <br> most amazing and fresh fruits.</p>
-        </div>
-
-      </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-      </div>
-      <div class="contents">
-        <div class="flex justify-normal items-center gap-3">
-        <div class="mt-10">
-
-          <i class="fa-solid fa-gift"></i>
-        </div>
-
-        <div class="mt-14">
-          <h2 class="mt-2 mb-2v text-xl font-bold mb-2">Gift Certificates</h2>
-          <hr class="w-20 decoration-8 mb-2">
-          <p class="text-xs font-normal">Professional employees are there for you to pick the <br> most amazing and fresh fruits.</p>
-        </div>
-
-      </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-      </div>
-    </div>
-      <div class="image">
-        <img class="pt-12 mt-6 ml-10" src="./images/whychoose1.png" alt="">
-      </div>
-
-      <!-- Third div -->
-
-      <div class="flex-col pl-9 ml-7 ">
-        <div class="contents pl-6 -mr-8 ">
-          <div class="flex justify-normal items-center gap-3">
-
-            <div class="mt-14">
-              <h2 class="mt-2 mb-2v text-xl font-bold mb-2 text-right">Integrated Supplier</h2>
-              <hr class="w-22 ml-10 mb-2 -mr-18 pl-5 ">
-              <p class="text-xs font-normal text-right">Professional employees are there for you to pick the  most amazing and fresh fruits.</p>
             </div>
-          <div class="mt-10 ">
-  
-            <i class="fa-solid fa-lemon"></i>
-          </div>
-  
-         
-  
-        </div>
-          <div>
-  
-          </div>
-          <div>
-  
-          </div>
-        </div>
-        <div class="contents pl-6 -mr-8 ">
-          <div class="flex justify-normal items-center gap-3">
+            <div>
 
-            <div class="mt-14">
-              <h2 class="mt-2 mb-2v text-xl font-bold mb-2 text-right">Sustainable Practice</h2>
-              <hr class="w-22 ml-10 mb-2 -mr-18 pl-5 ">
-              <p class="text-xs font-normal text-right">Professional employees are there for you to pick the  most amazing and fresh fruits.</p>
             </div>
-          <div class="mt-10 ">
-  
-            <i class="fa-solid fa-ice-cream"></i>
-          </div>
-  
-         
-  
-        </div>
-          <div>
-  
-          </div>
-          <div>
-  
-          </div>
-        </div>
-        <div class="contents pl-6 -mr-8 ">
-          <div class="flex justify-normal items-center gap-3">
+            <div>
 
-            <div class="mt-14">
-              <h2 class="mt-2 mb-2v text-xl font-bold mb-2 text-right">The Benefits Only</h2>
-              <hr class="w-22 ml-10 mb-2 -mr-18 pl-5 ">
-              <p class="text-xs font-normal text-right">Professional employees are there for you to pick the  most amazing and fresh fruits.</p>
             </div>
-          <div class="mt-10 ">
-  
-            <i class="fa-solid fa-thumbs-up"></i>
           </div>
-  
-         
-  
+
+          <div class="contents">
+            <div class="flex justify-normal items-center gap-3">
+              <div class="mt-10">
+
+                <i class="fa-regular fa-heart"></i>
+              </div>
+
+              <div class="mt-14">
+                <h2 class="mt-2 mb-2v text-xl font-bold mb-2">Fresh is Best</h2>
+                <hr class="w-20 decoration-8 mb-2">
+                <p class="text-xs font-normal">Professional employees are there for you to pick the <br> most amazing
+                  and fresh fruits.</p>
+              </div>
+            </div>
+            <div>
+            </div>
+            <div>
+            </div>
+          </div>
+          <div class="contents">
+            <div class="flex justify-normal items-center gap-3">
+              <div class="mt-10">
+                <i class="fa-solid fa-gift"></i>
+              </div>
+              <div class="mt-14">
+                <h2 class="mt-2 mb-2v text-xl font-bold mb-2">Gift Certificates</h2>
+                <hr class="w-20 decoration-8 mb-2">
+                <p class="text-xs font-normal">Professional employees are there for you to pick the <br> most amazing
+                  and fresh fruits.</p>
+              </div>
+            </div>
+            <div>
+            </div>
+            <div>
+            </div>
+          </div>
         </div>
-          <div>
-  
+        <div>
+          <img class="md:pt-12 md:mt-6 md:ml-10" src="./images/whychoose1.png" alt="">
+        </div>
+
+        <!-- Third div -->
+
+        <div class="flex-col pl-9 ml-7 ">
+          <div class="contents pl-6 -mr-8 ">
+            <div class="flex justify-normal items-center gap-3">
+
+              <div class="mt-14">
+                <h2 class="mt-2 mb-2v text-xl font-bold mb-2 text-right">Integrated Supplier</h2>
+                <hr class="w-22 ml-10 mb-2 -mr-18 pl-5 ">
+                <p class="text-xs font-normal text-right">Professional employees are there for you to pick the most
+                  amazing and fresh fruits.</p>
+              </div>
+              <div class="mt-10 ">
+
+                <i class="fa-solid fa-lemon"></i>
+              </div>
+            </div>
+            <div>
+            </div>
+            <div>
+            </div>
           </div>
-          <div>
-  
+          <div class="contents pl-6 -mr-8 ">
+            <div class="flex justify-normal items-center gap-3">
+
+              <div class="mt-14">
+                <h2 class="mt-2 mb-2v text-xl font-bold mb-2 text-right">Sustainable Practice</h2>
+                <hr class="w-22 ml-10 mb-2 -mr-18 pl-5 ">
+                <p class="text-xs font-normal text-right">Professional employees are there for you to pick the most
+                  amazing and fresh fruits.</p>
+              </div>
+              <div class="mt-10 ">
+
+                <i class="fa-solid fa-ice-cream"></i>
+              </div>
+            </div>
+            <div>
+            </div>
+            <div>
+            </div>
+          </div>
+          <div class="contents pl-6 -mr-8 ">
+            <div class="flex justify-normal items-center gap-3">
+
+              <div class="mt-14">
+                <h2 class="mt-2 mb-2v text-xl font-bold mb-2 text-right">The Benefits Only</h2>
+                <hr class="w-22 ml-10 mb-2 -mr-18 pl-5 ">
+                <p class="text-xs font-normal text-right">Professional employees are there for you to pick the most
+                  amazing and fresh fruits.</p>
+              </div>
+              <div class="mt-10 ">
+
+                <i class="fa-solid fa-thumbs-up"></i>
+              </div>
+            </div>
+            <div>
+            </div>
+            <div>
+            </div>
           </div>
         </div>
-  
-        
       </div>
-
-    </div>
-
-
     </section>
-
 
   </main>
 
-  <footer>
-    <footer class="footer footer-center pt-30 pb-20 mt-30 bg-black  text-base-content rounded">
-      <div class="flex justify-center items-center gap-2 mr-8 mt-10 pt-10">
 
-        <img class="w-9" src="./images/logo.png" alt="">
 
-        <div>
-          <h2 class="text-white text-2xl font-bold">Fruit Burst</h2>
-        </div>
+  <footer class="footer footer-center pt-30 pb-20 mt-30 bg-black  text-base-content rounded font-lato">
+    <div class="flex justify-center items-center gap-2 mr-8 mt-10 pt-10">
+
+      <img class="w-9" src="./images/logo.png" alt="">
+
+      <div>
+        <h2 class="text-white text-2xl font-bold">Fruit Burst</h2>
+      </div>
+    </div>
+
+    <div class="grid  grid-cols-4 lg:grid-cols-6 gap-6 text-white">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Shop</a>
+      <a href="#">All Fruits</a>
+      <a href="#">Support</a>
+      <a href="#">My Account</a>
+    </div>
+    <div>
+      <div class="grid grid-flow-col gap-6">
+
+        <span>
+          <a href="https://twitter.com/NeazNoman" target="_blank"><i
+              class="fa-brands fa-twitter text-white text-2xl"></i></a>
+        </span>
+        <span>
+          <a href="https://www.facebook.com/profile.php?id=100008935244709" target="_blank"> <i
+              class="fa-brands fa-facebook text-white text-2xl"></i></a>
+        </span>
+
+        <span>
+          <a href="https://www.youtube.com/@ProgrammingHeroCommunity" target="_blank"><i
+              class="fa-brands fa-youtube text-white text-2xl"></i></a>
+        </span>
+        <span>
+          <a href="https://www.linkedin.com/in/neaz-morshed/" target="_blank"><i
+              class="fa-brands fa-linkedin text-white text-2xl"></i></a>
+        </span>
+        <span>
+          <a href="https://www.instagram.com/neazmorshednoman/?hl=en" target="_blank"><i
+              class="fa-brands fa-square-instagram text-white text-2xl"></i></a>
+        </span>
+
       </div>
 
-      <div class="grid  grid-cols-4 lg:grid-cols-6 gap-6 text-white">
-        <a href="#">Home</a> 
-        <a href="#">About Us</a> 
-        <a href="#">Shop</a> 
-        <a href="#">All Fruits</a>
-        <a href="#">Support</a>
-        <a href="#">My Account</a>
-      </div> 
-      <div>
-        <div class="grid grid-flow-col gap-6">
-         
-          <span>
-            <a href="https://twitter.com/NeazNoman" target="_blank"><i class="fa-brands fa-twitter text-white text-2xl"
-                    ></i></a>
-        </span>
-            <span>
-                <a href="https://www.facebook.com/profile.php?id=100008935244709" target="_blank"> <i
-                        class="fa-brands fa-facebook text-white text-2xl"></i></a>
-            </span>
-            
-            <span>
-                <a href="https://www.youtube.com/@ProgrammingHeroCommunity" target="_blank"><i
-                        class="fa-brands fa-youtube text-white text-2xl" ></i></a>
-            </span>
-            <span>
-              <a href="https://www.linkedin.com/in/neaz-morshed/" target="_blank"><i
-                      class="fa-brands fa-linkedin text-white text-2xl" ></i></a>
-          </span>
-            <span>
-                <a href="https://www.instagram.com/neazmorshednoman/?hl=en" target="_blank"><i
-                        class="fa-brands fa-square-instagram text-white text-2xl" ></i></a>
-            </span>
-            
-
-
-        </div>
-        
-      </div> 
-      
-    </footer>
-    
+    </div>
 
   </footer>
 
